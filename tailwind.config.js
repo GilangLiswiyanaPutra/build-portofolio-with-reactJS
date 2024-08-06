@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'SF': ['SF Pro Display', 'SF Pro Text', 'Poppins'],
+       },
+       screens: {
+        'tablet': '640px',
+  
+        'laptop': '1024px',
+        
+        'desktop': '1280px',
+       }
+    },
   },
   plugins: [],
 }
