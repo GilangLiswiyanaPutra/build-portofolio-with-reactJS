@@ -6,7 +6,7 @@ import Home from './components/pages/home.jsx'
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
       
     </>

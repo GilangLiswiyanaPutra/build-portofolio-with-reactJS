@@ -6,16 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        'SF': ['SF Pro Display', 'SF Pro Text', 'Poppins'],
-       },
-       screens: {
-        'tablet': '640px',
+      screens: {
+        'xs': '475px',
+
+        'sm': '576px',
   
-        'laptop': '1024px',
+        'md': '960px',
         
-        'desktop': '1280px',
-       }
+        'lg': '1440px',
+      },
     },
   },
   plugins: [],

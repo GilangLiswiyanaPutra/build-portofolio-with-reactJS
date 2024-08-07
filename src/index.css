@@ -5,3 +5,7 @@
 body {
     background-color: #222831;
 }
+
+* {
+    font-family: 'SF Pro Text', 'Poppins', 'SF Pro Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
