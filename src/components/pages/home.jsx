@@ -25,7 +25,7 @@ const Home = () => {
         <h3 className='text-white font-bold text-xl sm:text-4xl'>Hello <span className='text-[#00ADB5]'>I am</span></h3>
         <h1 className='text-white font-bold text-4xl sm:text-9xl'>NEWBIE <span className='text-[#00ADB5]'>WEB</span></h1>
         <h2 className='text-white static font-bold text-4xl sm:text-9xl'>DEVELOPER</h2>
-        <button onClick={handleExplore} className='bg-[#00ADB5] rounded-2xl mt-6 text-white font-semibold hover:text-[#222831] hover:bg-white transition-colors duration-500 text-xs py-1 px-2 w-fit text-center sm:px-6 sm:py-2.5 sm:text-lg'>Explore Your Journey</button>
+        <button onClick={handleExplore} className='bg-[#00ADB5] rounded-2xl mt-6 text-white font-semibold hover:text-[#222831] hover:bg-white transition-colors duration-500 text-xs py-1 px-2 w-fit text-center sm:px-6 sm:py-2.5 sm:text-xl'>Explore Your Journey</button>
       </div>
     </section>
   );
