@@ -15,8 +15,12 @@ export default {
         
         'lg': '1440px',
       },
+      colors: {
+        'blues' : '#00ADB5',
+
+        'darks' : '#222831',
+      }
     },
   },
   plugins: [],
 }
-
