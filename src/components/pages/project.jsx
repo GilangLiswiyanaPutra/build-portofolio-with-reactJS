@@ -1,8 +1,6 @@
 import React from 'react';
-import Card from '../layout/cardproject';
-import RT from '../../assets/1.png';
-import NS from '../../assets/3.png';
-import ES from '../../assets/2.png';
+import Cardproject from '../layout/cardproject';
+import { RT, NS, ES } from '../../assets/icon';
 
 const projects = [
   {
@@ -36,7 +34,7 @@ const Project = () => {
       </h1>
       <div className='flex flex-col gap-1'>
         {projects.map((project, index) => (
-          <Card 
+          <Cardproject 
             key={index}
             title={project.title}
             description={project.description}

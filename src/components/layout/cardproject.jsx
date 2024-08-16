@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ title, description, image, buttonLabel, buttonLink }) => {
+const Cardproject = ({ title, description, image, buttonLabel, buttonLink }) => {
 
     const handleCard = () => {
         window.open(buttonLink, '_blank');
@@ -30,4 +30,4 @@ const Card = ({ title, description, image, buttonLabel, buttonLink }) => {
   );
 };
 
-export default Card;
+export default Cardproject;
