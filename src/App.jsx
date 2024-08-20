@@ -4,6 +4,7 @@ import Home from './components/pages/home.jsx'
 import About from './components/pages/about.jsx'
 import Project from './components/pages/project.jsx'
 import Skill from './components/pages/skill.jsx'
+import Footer from './components/layout/footer.jsx'
 
 
 const App = () => {
@@ -14,7 +15,7 @@ const App = () => {
       <About />
       <Project />
       <Skill />
-      
+      <Footer />
     </>
   )
 }
