@@ -1,9 +1,9 @@
 import React from 'react';
+import { socialPlatforms, handleFooter } from '../data/footerdata';
 
 const Home = () => {
-  const handleMore = () => {
-    window.open("https://www.linkedin.com/in/gilang-liswiyana-putra/", "_blank", "noopener,noreferrer");
-  };
+
+  const platform = socialPlatforms[1]
 
   return (
     <section className="relative flex items-center justify-center w-full h-screen bg-darks">
@@ -25,7 +25,7 @@ const Home = () => {
         <h3 className='text-white font-bold text-xl sm:text-4xl'>Hello <span className='text-blues'>I am</span></h3>
         <h1 className='text-white font-bold text-4xl sm:text-8xl'>NEWBIE <span className='text-blues'>WEB</span></h1>
         <h2 className='text-white font-bold text-4xl sm:text-8xl'>DEVELOPER</h2>
-        <button onClick={handleMore} className='bg-blues rounded-2xl mt-6 text-white font-semibold hover:text-darks hover:bg-white transition-colors duration-500 text-xs py-1 px-2 w-fit text-center sm:px-6 sm:py-2.5 sm:text-xl'>Know More</button>
+        <button onClick={()=>handleFooter(platform.name)} className='bg-blues rounded-2xl mt-6 text-white font-semibold hover:text-darks hover:bg-white transition-colors duration-500 text-xs py-1 px-2 w-fit text-center sm:px-6 sm:py-2.5 sm:text-xl'>Know More</button>
       </div>
     </section>
   );

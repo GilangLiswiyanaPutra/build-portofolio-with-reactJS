@@ -10,6 +10,11 @@ export const socialLinks = {
   mail: "mailto:gilanglputra5@gmail.com"
 };
 
+export const descriptionFooter = {
+  desc1: "Get in Touch",
+  desc2: "I'm always open to new opportunities and conversations. Let's connect and explore the possibilities.",
+}
+
 export const socialPlatforms = [
   { name: "instagram", icon: faInstagram },
   { name: "linkedin", icon: faLinkedin },

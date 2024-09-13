@@ -19,6 +19,8 @@ export default {
         'blues' : '#00ADB5',
 
         'darks' : '#222831',
+
+        'ash' : '#393E46',
       }
     },
   },
